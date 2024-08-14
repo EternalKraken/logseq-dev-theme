@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code");
-@import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
+@import url("fira-code.css");
+@import url("source-sans-3VF.css");
 @font-face {
   font-family: "Source Han Sans VF";
   font-weight: 200 900;
   font-style: normal;
   font-stretch: normal;
-  src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
+  src: url("SourceHanSansCN-VF.otf.woff2");
 }
 @font-face {
   font-family: "Only Emoji";
@@ -1272,28 +1272,3 @@ html[data-theme=white] {
 :root {
   --ls-block-bullet-threading-width: 2px;
 }
-
-/* PDF viewer */
-.extensions__pdf-settings-item.theme-picker>button.dark {
-    background-color: var(--ls-primary-background-color);
-}
-.extensions__pdf-container {
-  background-color: transparent;
-
-  &[data-theme=dark] {
-    background-color: #262E37; /* not sure how to do this without hardcoding */ 
-
-    .textLayer {
-      background-color: var(--ls-primary-background-color);
-      opacity: 1;
-      /* mix-blend-mode: multiply; */
-    }
-
-    .extensions__pdf-hls-text-region {
-      mix-blend-mode: normal;
-      opacity: .4;
-    }
-
-  }
-}
-
