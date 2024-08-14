@@ -1,6 +1,6 @@
 ## [1.26.17a](https://github.com/EternalKraken/logseq-dev-theme) (2024-08-14)
 
-*Forked pengx17's repo
+* forked pengx17's repo
 
 ## [1.26.17](https://github.com/pengx17/logseq-dev-theme/compare/v1.26.16...v1.26.17) (2023-05-13)
 
